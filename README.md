@@ -135,6 +135,7 @@ The project is set to run on default: `http://localhost:8080`
 - **username**: "String"
 - **password**: "String"
 - **email**: "String"
+  
 | Method | Endpoint                  | Description                            | Parameters                               |
 |--------|---------------------------|----------------------------------------|------------------------------------------|
 | POST   | `/api/auth/authenticate`          | Authenticate user (Sign in) and get JWT token.   | `username`, `password` (Required JSON Body)        |
